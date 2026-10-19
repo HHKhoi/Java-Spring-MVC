@@ -8,15 +8,6 @@ public class User {
     private String address;
     private String phone;
 
-    public User(long id, String email, String password, String fullName, String address, String phone) {
-        this.id = id;
-        this.email = email;
-        this.password = password;
-        this.fullName = fullName;
-        this.address = address;
-        this.phone = phone;
-    }
-
     public long getId() {
         return id;
     }
