@@ -15,6 +15,16 @@ public class User {
     private String fullName;
     private String address;
     private String phone;
+    private String avartar;
+    //roleId
+
+    public String getAvartar() {
+        return avartar;
+    }
+
+    public void setAvartar(String avartar) {
+        this.avartar = avartar;
+    }
 
     public long getId() {
         return id;
@@ -67,8 +77,7 @@ public class User {
     @Override
     public String toString() {
         return "User [id=" + id + ", email=" + email + ", password=" + password + ", fullName=" + fullName
-                + ", address=" + address + ", phone=" + phone + "]";
+                + ", address=" + address + ", phone=" + phone + ", avartar=" + avartar + "]";
     }
 
-    
 }
